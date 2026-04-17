@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BirdWatcherTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-04-16T11:24:17.679Z" hostname="AT-AL3799MW" time="0.032">
+  <properties/>
+  <testcase name="The getBusyDays method correctly returns zero in case of no busy days" classname="BirdWatcherTest" time="0.019"/>
+  <testcase name="The hasDayWithoutBirds method returns false when no day had zero visits" classname="BirdWatcherTest" time="0.001"/>
+  <testcase name="The getLastWeek method correctly returns last week's counts" classname="BirdWatcherTest" time="0.002"/>
+  <testcase name="The hasDayWithoutBirds method returns true when day had no visits" classname="BirdWatcherTest" time="0.001"/>
+  <testcase name="The getBusyDays method returns the correct count of busy days" classname="BirdWatcherTest" time="0.0"/>
+  <testcase name="The getCountForFirstDays method returns correct visits' count for given number of days" classname="BirdWatcherTest" time="0.001"/>
+  <testcase name="The getToday method correctly returns today's counts" classname="BirdWatcherTest" time="0.0"/>
+  <testcase name="The incrementTodaysCount method correctly increments today's counts" classname="BirdWatcherTest" time="0.001"/>
+  <testcase name="The hasDayWithoutBirds method returns true if the last day has zero visits" classname="BirdWatcherTest" time="0.0"/>
+  <testcase name="The getCountForFirstDays method returns overall count when number of days is higher than array size" classname="BirdWatcherTest" time="0.0"/>
+  <system-out><![CDATA[0 is the count to ans is true
+0 is the count to ans is true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

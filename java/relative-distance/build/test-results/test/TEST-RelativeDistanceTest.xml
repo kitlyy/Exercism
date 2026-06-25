@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RelativeDistanceTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2026-05-05T14:47:49.292Z" hostname="AT-AL3799MW" time="0.029">
+  <properties/>
+  <testcase name="Sibling relationship" classname="RelativeDistanceTest" time="0.024">
+    <failure message="org.opentest4j.AssertionFailedError: &#10;expected: 1&#10; but was: 0" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
+expected: 1
+ but was: 0
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at RelativeDistanceTest.testSiblingRelationship(RelativeDistanceTest.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Dalia
+Olga
+Yassin
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
